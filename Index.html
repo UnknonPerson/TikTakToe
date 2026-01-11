@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TickTakToe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="Container">
+        <div id="Header">TicTacToe Game</div>
+        <div class="start">
+            <h1>Ready To Play</h1>
+            <button id="str">Start</button>
+            <div class="player">
+                <div><input type="radio" name="play" id="pvp"><h2>  With Player</h2></div>
+                <div><input type="radio" name="play" id="pvc"><h2>  With Computer</h2></div>
+            </div>
+        </div>
+        <div id="row1" class="row" >
+            <div id="11" class="l"> 
+              
+            </div>
+            <div id="12"class="l" style="border-left: 2px solid white;">
+               
+            </div>
+            <div id="13" style="border-left: 2px solid white;">
+                
+            </div>
+        </div>
+         <div id="row2" class="row">
+            <div id="21" class="l">
+                
+            </div>
+            <div id="22" class="l" style="border-left: 2px solid white;">
+               
+            </div>
+            <div id="23" style="border-left: 2px solid white;"> 
+               
+            </div>
+        </div>
+         <div id="row3" class="row">
+            <div id="31" class="l">
+               
+            </div>
+            <div id="32" class="l" style="border-left: 2px solid white;">
+                
+            </div>
+            <div id="33" style="border-left: 2px solid white;">
+               
+            </div>
+        </div>
+         <div class="middleware">
+            <h1 id="cw">you Won This Round</h1>
+            <h1 id="pw">Computer Won This Round</h1>
+            <h1 id="dr">The Match has been Draw</h1>
+            <div>
+                <button id="btnp">Play Next</button>
+                <button id="btne">Score</button>
+            </div>
+        </div>
+        <div class="score">
+            <h1>you are good player</h1>
+            <button id="btnexit">Exit</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+
+</body>
+</html>
+
